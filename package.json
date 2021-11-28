@@ -1,0 +1,32 @@
+{
+  "name": "@ofeenee/authenticator",
+  "version": "0.0.1",
+  "type": "module",
+  "description": "a simple module with basic methods for creating and verifying identities.",
+  "main": "Authenticator.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha || true",
+    "dev": "nodemon Authenticator.js"
+  },
+  "bugs": {
+    "url": "https://github.com/ofeenee/authenticator/issues"
+  },
+  "homepage": "https://github.com/ofeenee/authenticator#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ofeenee/authenticator.git"
+  },
+  "author": "ofeenee <ofeenee@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^9.1.3"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "twilio": "^3.71.2"
+  }
+}
