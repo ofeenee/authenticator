@@ -1,6 +1,6 @@
 {
   "name": "@ofeenee/authenticator",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "module",
   "description": "a simple module with basic methods for creating and verifying identities.",
   "main": "Authenticator.js",
